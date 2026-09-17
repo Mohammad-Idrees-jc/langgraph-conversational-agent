@@ -23,7 +23,7 @@ python-dotenv>=1.0.0
 # langsmith>=0.1.0
 
 # UI layer
-# streamlit>=1.38.0
+streamlit>=1.38.0
 
 # RAG stack
 # langchain-community>=0.3.0
