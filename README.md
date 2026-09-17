@@ -41,18 +41,18 @@ agent memory across turns — and, later, across process restarts.
 
 ## Roadmap
 
-| Stage | Capability | Status |
-|---|---|---|
-| 1 | Terminal chat with in-memory checkpointing | ✅ Complete |
-| 2 | Durable persistence (SQLite / Postgres checkpointer) | 🔜 Planned |
-| 3 | Web UI | 🔜 Planned |
-| 4 | Token streaming | 🔜 Planned |
-| 5 | Resume prior conversation threads | 🔜 Planned |
-| 6 | Tool calling | 🔜 Planned |
-| 7 | RAG over a document corpus | 🔜 Planned |
-| 8 | LangSmith tracing and evaluation | 🔜 Planned |
-| 9 | Human-in-the-loop interrupts and approval | 🔜 Planned |
-| 10 | Fault tolerance and retry policies | 🔜 Planned |
+| Stage | Capability                                           | Status |
+|---|------------------------------------------------------|---|
+| 1 | Terminal chat with in-memory checkpointing           | ✅ Complete |
+| 2 | Durable persistence (SQLite / Postgres checkpointer) | ✅ Complete |
+| 3 | Streamlit UI                                         | ✅ Complete |
+| 4 | Token streaming                                      | 🔜 Planned |
+| 5 | Resume prior conversation threads                    | 🔜 Planned |
+| 6 | Tool calling                                         | 🔜 Planned |
+| 7 | RAG over a document corpus                           | 🔜 Planned |
+| 8 | LangSmith tracing and evaluation                     | 🔜 Planned |
+| 9 | Human-in-the-loop interrupts and approval            | 🔜 Planned |
+| 10 | Fault tolerance and retry policies                   | 🔜 Planned |
 
 ---
 
