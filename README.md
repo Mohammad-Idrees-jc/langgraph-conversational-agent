@@ -46,7 +46,7 @@ agent memory across turns — and, later, across process restarts.
 | 1 | Terminal chat with in-memory checkpointing           | ✅ Complete |
 | 2 | Durable persistence (SQLite / Postgres checkpointer) | ✅ Complete |
 | 3 | Streamlit UI                                         | ✅ Complete |
-| 4 | Token streaming                                      | 🔜 Planned |
+| 4 | Token streaming                                      | ✅ Complete |
 | 5 | Resume prior conversation threads                    | 🔜 Planned |
 | 6 | Tool calling                                         | 🔜 Planned |
 | 7 | RAG over a document corpus                           | 🔜 Planned |
@@ -85,8 +85,10 @@ HUGGINGFACEHUB_API_TOKEN=your_token_here
 ### Run
 
 ```bash
-python chatbot.py # this is only terminal base chatbot for UI use the following
-streamlit run streamlit_frontend.py
+for UI use the following
+- streamlit_frontend.py → basic UI (no streaming)
+- streamlit_frontend_streaming.py → UI with streaming responses (latest)
+- chat_bot.py → old terminal-only version, kept for reference
 ```
 
 Type `exit` to end the session.
